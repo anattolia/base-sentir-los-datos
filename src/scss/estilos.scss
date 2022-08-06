@@ -14,3 +14,42 @@ body {
   margin: 0;
   padding: 0;
 }
+
+ #contenedor {
+  margin: auto;
+  width: 0vw;
+ }
+
+ #cuerpo {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.contenedorDia {
+  margin-top: 3em;
+  display: grid;
+  align-items: center;
+  grid-template-columns: [primera] 150px [segunda] 200px [tercera] 300px;
+  justify-items: center;
+  
+
+.negro {
+  background-color: #000;
+  color: rgb(250, 255, 255);
+  border-radius: 50%;
+  //border: #000 solid;
+}
+
+.fecha {
+  margin-right: 12px;
+  place-self: right;
+}
+
+.nombres {
+  width: fit-content;
+  margin-left: 1em;
+  place-self: first baseline;
+}
+}
+
