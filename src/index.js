@@ -14,6 +14,8 @@ dayjs.extend(zonaHoraria);
 dayjs.locale('es-mx');
 dayjs.tz.setDefault('America/Bogota');
 
+datos = datos.reverse();
+
 function pintar() {
   for (let i = 0; i <= datos.length; i++) {
     console.log(datos[i].asesinatos);
